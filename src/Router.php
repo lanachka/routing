@@ -3,7 +3,7 @@
 namespace Routing;
 
 use Aigletter\Contracts\Routing\RouteInterface;
-use Routing\Exceptions\RouterException;
+use Routing\Exception\RouterException;
 
 
 class Router implements RouteInterface
