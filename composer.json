@@ -1,0 +1,21 @@
+{
+    "name": "lana/routing",
+    "description": "Routing",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lana Vlasenko",
+            "email": "lanachka1993@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "aigletter/contracts": "1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "routing\\": "src"
+        }
+    }
+}
